@@ -1,0 +1,106 @@
+body {
+    font-family:monospace;
+    background-color: black; 
+    color: #0af; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #222;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 2px 2px 13px yellow;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: auto;
+}
+
+.clockHolder {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeHolder {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeOptions {
+    margin-bottom: 20px;
+}
+
+.timeOptions i {
+    cursor: pointer;
+    color: #0af; 
+    font-size: 24px;
+}
+
+.timeOptions i:hover {
+    color: #0ff; 
+}
+
+.mainDiv {
+    font-family: "Digital-7", sans-serif; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 72px;
+    font-weight: bold;
+    color: #0af; 
+    text-shadow: 0 0 4px #0af, 0 0 4px #0af, 0 0 4px #0af, 0 0 4px #0af;
+}
+
+
+@media (max-width: 500px) {
+    .mainDiv {
+        font-size: 48px; 
+    }
+
+    .timeOptions i {
+        font-size: 20px; 
+    }
+}
+
+@media (max-width: 350px) {
+    .mainDiv {
+        font-size: 36px; 
+    }
+
+    .timeOptions i {
+        font-size: 18px; 
+    }
+
+    .mainDiv{
+        text-shadow: 0 0 3px #0af, 0 0 3px #0af, 0 0 3px #0af, 0 0 3px #0af;
+    }
+}
+
+@media (max-width: 250px) {
+    .mainDiv {
+        font-size: 24px; 
+    }
+
+    .timeOptions i {
+        font-size: 16px; 
+    }
+
+    .mainDiv{
+        text-shadow: 0 0 2px #0af, 0 0 2px #0af, 0 0 2px #0af, 0 0 2px #0af;
+    }
+}
