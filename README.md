@@ -1,6 +1,6 @@
 # Digital Watch Project
 
-This is a simple digital watch project created using HTML, CSS, and JavaScript. The digital watch displays the current time in a 24-hour format.
+This is a simple digital watch project. The digital watch displays the current time in a 24-hour format.
 <a href="https://himanshi-digitalwatch.netlify.app/">View</a>
 
 ## Technologies Used
